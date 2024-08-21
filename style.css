@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: darkkhaki;
+  font-weight: 700;
+  font-size: larger;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 3em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+input[type="submit"] {
+  background-color: yellow;
+}
+input[type="submit"]:hover {
+  background-color: darkkhaki;
+}
