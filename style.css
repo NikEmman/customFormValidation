@@ -11,6 +11,9 @@ form {
   display: flex;
   flex-direction: column;
 }
+label {
+  margin-bottom: 0.5em;
+}
 input {
   height: 3em;
   border-radius: 10px;
@@ -21,4 +24,11 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: darkkhaki;
+}
+input[type="submit"]:disabled {
+  background-color: gray;
+  color: black;
+}
+input:invalid {
+  border: 2px solid red;
 }
